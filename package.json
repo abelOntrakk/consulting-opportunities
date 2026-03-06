@@ -1,0 +1,16 @@
+{
+  "name": "consulting-opportunity-finder",
+  "version": "1.0.0",
+  "description": "Agent for identifying consulting opportunities from job postings",
+  "main": "scrape.js",
+  "scripts": {
+    "scrape": "node scrape.js",
+    "setup": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  },
+  "keywords": ["consulting", "jobs", "scraping", "automation"],
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+
+# OS files
+.DS_Store
+
+# Company data (client-sensitive, keep local only)
+data/companies/*.md
+data/feedback/*.md
+
+# Keep directory structure
+!data/companies/.gitkeep
+!data/feedback/.gitkeep
