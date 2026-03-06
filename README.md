@@ -53,6 +53,6 @@ consulting-opportunities/
 │   └── feedback/          # Feedback on analyses (gitignored)
 ```
 
-## What Gets Tracked in Git
+## What's included in this
 
-The repo contains the **tooling and instructions** — the agent workflow, scraping utilities, and templates. Company analysis reports (`data/companies/`) and feedback files (`data/feedback/`) are gitignored since they contain client-sensitive information.
+The repo contains the **tooling and instructions** — the agent workflow, scraping utilities, and templates. Company analysis reports (`data/companies/`) and feedback files (`data/feedback/`) are company specific and therefore not included here. 
