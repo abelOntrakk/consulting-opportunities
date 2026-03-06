@@ -11,6 +11,11 @@ An agent-driven workflow that identifies consulting opportunities from company j
 5. Generates a structured opportunity report with specific, scoped engagement proposals
 6. Collects feedback for iteration
 
+## Prerequisites
+
+- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) installed and authenticated
+- Node.js 18+
+
 ## Setup
 
 ```bash
@@ -18,15 +23,9 @@ npm install
 npm run setup  # installs Playwright's Chromium browser
 ```
 
-Optionally copy the environment template:
-
-```bash
-cp .env.example .env
-```
-
 ## Usage
 
-Run with Claude Code — give it a careers URL:
+Run with Claude Code from this directory — give it a careers URL:
 
 ```
 Analyze https://jobs.ashbyhq.com/somecompany for consulting opportunities
@@ -46,13 +45,11 @@ consulting-opportunities/
 ├── CLAUDE.md              # Agent instructions and workflow
 ├── scrape.js              # Reusable Playwright scraping utilities
 ├── package.json
-├── .env.example           # Environment variable template
 ├── data/
-│   ├── INDEX.md           # Opportunity tracking index
 │   ├── companies/         # Generated opportunity reports (gitignored)
 │   └── feedback/          # Feedback on analyses (gitignored)
 ```
 
 ## What's included in this
 
-The repo contains the **tooling and instructions** — the agent workflow, scraping utilities, and templates. Company analysis reports (`data/companies/`) and feedback files (`data/feedback/`) are company specific and therefore not included here. 
+The repo contains the **tooling and instructions** — the agent workflow, scraping utilities, and templates. Company analysis reports (`data/companies/`) and feedback files (`data/feedback/`) are company specific and therefore not included here.
