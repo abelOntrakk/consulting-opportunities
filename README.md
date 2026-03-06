@@ -25,7 +25,14 @@ npm run setup  # installs Playwright's Chromium browser
 
 ## Usage
 
-Run with Claude Code from this directory — give it a careers URL:
+This workflow is also available as a Claude Code skill:
+
+```
+/install consulting-opportunity
+/consulting-opportunity https://jobs.ashbyhq.com/somecompany
+```
+
+Or run with Claude Code from this directory — give it a careers URL:
 
 ```
 Analyze https://jobs.ashbyhq.com/somecompany for consulting opportunities
